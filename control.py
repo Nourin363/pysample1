@@ -40,17 +40,17 @@
 # else:
 #     print("i is not present")
 
-i=90
-if i<=100 and i>=0:
-    if i>=90:
-        print("A Grade")
-    elif i>=80:
-        print("B Grade")
-    elif i>=70:
-        print("C Grade")
-    elif i>=60:
-        print("D Grade")
-    else:
-        print("Fail")
-else:
-    print("Invalid Mark")
+# i=90
+# if i<=100 and i>=0:
+#     if i>=90:
+#         print("A Grade")
+#     elif i>=80:
+#         print("B Grade")
+#     elif i>=70:
+#         print("C Grade")
+#     elif i>=60:
+#         print("D Grade")
+#     else:
+#         print("Fail")
+# else:
+#     print("Invalid Mark")
