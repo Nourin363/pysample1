@@ -54,15 +54,65 @@
 #     print(year, "is not a leap year.")
 
 #Write a Python program to calculate the water bill based on the number of units consumed
-units = int(input("Enter total units consumed: "))
+# units = int(input("Enter total units consumed: "))
+# if units <= 100:
+#     bill = units * 5
+# elif units <= 200:
+#     bill = (100 * 5) + (units - 100) * 8
+# else:
+#     bill = (100 * 5) + (100 * 8) + (units - 200) * 10
 
-if units <= 100:
-    bill = units * 5
-elif units <= 200:
-    bill = (100 * 5) + (units - 100) * 8
+# print(f"Total water bill for {units} units is: ₹{bill}")
+
+
+#loops
+
+#Sum of digits
+# sum=0
+# n=0
+# i=int(input("enter a number: "))
+# while i>0:
+#     n=i%10
+#     sum+=n
+#     i=i//10
+# print(sum)
+
+#count the number of digits
+# count=0
+# i=int(input("enter a number: "))
+# while i>0:
+#     n=i%10
+#     count +=1
+#     i=i//10
+# print(count)
+
+#armstrong
+# i=int(input("enter a number: "))
+# temp=i
+# sum=0
+# num_digits = len(str(i))
+# while temp>0:
+#     n=temp%10
+#     sum += n ** num_digits
+#     temp=temp//10
+# if sum==i:
+#     print("it is an armstrong number")
+# else:
+#         print("it is not an armstrong number")
+
+#palindrome
+temp=0
+rev=0
+i=int(input("enter a number: "))
+temp=i
+while temp>0:
+    n=temp%10
+    rev=rev*10+n
+    temp=temp//10
+if rev==i:
+    print("It is a palindrome number")
 else:
-    bill = (100 * 5) + (100 * 8) + (units - 200) * 10
+    print("It is not a palindrome number")
 
-print(f"Total water bill for {units} units is: ₹{bill}")
 
 
