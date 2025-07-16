@@ -47,7 +47,6 @@
 
 #program to find the leap year
 # year = int(input("Enter a year: "))
-
 # if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
 #     print(year, "is a leap year.")
 # else:
@@ -98,21 +97,33 @@
 # if sum==i:
 #     print("it is an armstrong number")
 # else:
-#         print("it is not an armstrong number")
+#     print("it is not an armstrong number")
 
 #palindrome
-temp=0
-rev=0
-i=int(input("enter a number: "))
-temp=i
-while temp>0:
-    n=temp%10
-    rev=rev*10+n
-    temp=temp//10
-if rev==i:
-    print("It is a palindrome number")
-else:
-    print("It is not a palindrome number")
+# temp=0
+# rev=0
+# i=int(input("enter a number: "))
+# temp=i
+# while temp>0:
+#     n=temp%10
+#     rev=rev*10+n
+#     temp=temp//10
+# if rev==i:
+#     print("It is a palindrome number")
+# else:
+#     print("It is not a palindrome number")
+
+#repeated digits
+# i=int(input("enter the number:"))
+# j=int(input("enter the number to check:"))
+# a=0
+# while i>0:
+#     if(i%10==j):
+#         a=a+1
+#     i=i//10
+# print(a)
+
+
 
 
 

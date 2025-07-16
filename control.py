@@ -30,15 +30,15 @@
 
 
 #if elif else ladder
-# i = 20
-# if i == 10:
-#     print("i is 10")
-# elif i == 15:
-#     print("i is 15")
-# elif i == 20:
-#     print("i is 20")
-# else:
-#     print("i is not present")
+i = 10
+if i == 10:
+    print("i is 10")
+elif i == 15:
+    print("i is 15")
+elif i == 20:
+    print("i is 20")
+else:
+    print("i is not present")
 
 # i=90
 # if i<=100 and i>=0:
@@ -54,3 +54,5 @@
 #         print("Fail")
 # else:
 #     print("Invalid Mark")
+
+
